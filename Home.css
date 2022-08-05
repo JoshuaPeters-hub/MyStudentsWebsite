@@ -1,0 +1,102 @@
+/* Created by Ohaji Gregory */
+*
+{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:link
+{
+  color: green;
+  text-decoration: none;
+}
+
+header li
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 0 10px;
+
+}
+
+
+img
+{
+    height:70px;
+    width:70px;
+    margin-left: 100px;
+}
+
+header ul
+{
+    float:right;
+    margin-right:99px;
+    height: 100%;
+}
+
+header
+{
+position:fixed;
+border: 2px solid black;
+margin:0;
+width:100%;
+z-index:10;
+background-color:white;
+height: 80px;
+}
+
+
+main
+{
+position:relative;
+top:70px;
+height:600px;
+margin: 0;
+padding:0;
+}
+
+
+.header
+{
+ background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("C:/Users/Uzoma/Documents/NYSC/Wahab Pictures/Class Pictures/Class pic.jpg");
+ background-size:cover;
+ height:500px;
+ text-align:center;
+ background-blend-mode:multiply;
+ text-align:center;
+}
+
+h1
+{
+   color:white;
+   position:relative;
+   top:50%;
+   transform:translateY(-50%);
+   margin:0;
+}
+
+footer
+{
+  margin: 0;
+  background-color:lightgreen;
+  color:black;
+  line-height: 50px;
+}
+
+footer ul
+{
+  margin-left: 100px;
+  list-style: none;
+}

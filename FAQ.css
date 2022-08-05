@@ -1,0 +1,104 @@
+body
+{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+*
+{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+
+header li
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 0 10px;
+  color: green;
+}
+
+
+img
+{
+    height:70px;
+    width:70px;
+    margin-left: 100px;
+}
+
+header ul
+{
+    float:right;
+    margin-right:99px;
+    height: 100%;
+}
+
+header
+{
+position:fixed;
+border: 2px solid black;
+margin:0;
+width:100%;
+z-index:10;
+background-color:white;
+height: 80px;
+}
+
+.header
+{
+text-align:center;
+color:white;
+height:300px;
+background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("C:\\Users\\Uzoma\\Documents\\NYSC\\Wahab Pictures\\WhatsApp Image 2022-08-05 at 11.17.31 AM.jpeg");
+background-blend-mode:multiply;
+background-size:cover;
+margin-bottom: 30px;
+position:relative;
+top:70px;
+}
+
+h1
+{
+position:relative;
+top:50%;
+transform:translateY(-50%);
+font-weight:bold;
+}
+ul
+{
+list-style:none;
+line-height:20px;
+margin-left: 30px;
+}
+.answer
+{
+margin-left:50px;
+margin-bottom: 30px;
+}
+.question
+{
+font-weight:bold;
+font-size:15px;
+text-transform:uppercase;
+}
+
+footer
+{
+  margin: 0;
+  background-color:lightgreen;
+  color:black;
+}
+
+footer ul
+{
+  list-style: none;
+  line-height: 50px;
+}
