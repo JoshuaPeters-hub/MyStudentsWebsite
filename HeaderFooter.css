@@ -1,0 +1,64 @@
+header a:link
+{
+  color: green;
+  text-decoration: none;
+}
+
+header li
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+img
+{
+    height:70px;
+    width:70px;
+    margin-left: 100px;
+}
+
+header ul
+{
+    float:right;
+    margin-right:99px;
+    height: 100%;
+}
+
+header
+{
+position:fixed;
+margin:0;
+width:100%;
+z-index:10;
+background-color:white;
+height: 80px;
+box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+
+footer
+{
+  margin: 0;
+  background-color:lightgreen;
+  line-height: 50px;
+  color: white;
+}
+
+footer a:link
+{
+  color: white;
+  text-decoration: none;
+}
+
+footer ul
+{
+  margin-left: 100px;
+  list-style: none;
+}

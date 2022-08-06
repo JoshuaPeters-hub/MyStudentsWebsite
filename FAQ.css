@@ -12,46 +12,6 @@ body
   box-sizing: border-box;
 }
 
-header li
-{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 15px;
-  margin: 0 10px;
-  color: green;
-}
-
-
-img
-{
-    height:70px;
-    width:70px;
-    margin-left: 100px;
-}
-
-header ul
-{
-    float:right;
-    margin-right:99px;
-    height: 100%;
-}
-
-header
-{
-position:fixed;
-border: 2px solid black;
-margin:0;
-width:100%;
-z-index:10;
-background-color:white;
-height: 80px;
-}
-
 .header
 {
 text-align:center;
@@ -63,6 +23,12 @@ background-size:cover;
 margin-bottom: 30px;
 position:relative;
 top:70px;
+}
+
+main
+{
+  position: relative;
+  top:70px;
 }
 
 h1
@@ -88,17 +54,4 @@ margin-bottom: 30px;
 font-weight:bold;
 font-size:15px;
 text-transform:uppercase;
-}
-
-footer
-{
-  margin: 0;
-  background-color:lightgreen;
-  color:black;
-}
-
-footer ul
-{
-  list-style: none;
-  line-height: 50px;
 }
