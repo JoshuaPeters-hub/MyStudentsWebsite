@@ -1,0 +1,52 @@
+/* Created by uzi p */
+
+/* Created by Yunus */
+
+
+ul
+{
+background-color:solid black;
+color:purple;
+border-color:yellow;
+ text-align: center;
+ list-style:none;
+ line-height:30px;
+}
+
+img
+{
+    width:50%;
+    height:100%;
+    float: left;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:20px;
+}
+
+.card
+{
+width: 350px;
+height:  250px;
+height:250px solid black;
+box-shadow:0 5px 40px rgba(0,0,0,0.6);
+border-radius:20px;
+}
+
+tr
+{
+    display:inline-block;
+}
+
+.content
+{
+padding-top: 12%;
+}
+
+
+.content
+{
+overflow: hidden;
+}
+td
+{
+    padding:20px;
+}
