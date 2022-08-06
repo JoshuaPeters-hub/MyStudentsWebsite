@@ -1,28 +1,28 @@
 body
 {
   margin: 0;
- padding: 0;
- box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 *
 {
   margin: 0;
- padding: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .header
 {
-text-align:center;
-color:white;
-height:500px;
-background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Pheonix\\WhatsApp Image 2022-08-05 at 8.59.20 PM.jpeg");
-background-blend-mode:multiply;
-background-size:cover;
-margin-bottom: 30px;
-position:relative;
-top:70px;
+  text-align:center;
+  color:white;
+  height:500px;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Pheonix\\WhatsApp Image 2022-08-05 at 8.59.20 PM.jpeg");
+  background-blend-mode:multiply;
+  background-size:cover;
+  margin-bottom: 30px;
+  position:relative;
+  top:70px;
 }
 
 main
@@ -33,25 +33,28 @@ main
 
 h1
 {
-position:relative;
-top:50%;
-transform:translateY(-50%);
-font-weight:bold;
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+  font-weight:bold;
 }
+
 ul
 {
-list-style:none;
-line-height:20px;
-margin-left: 30px;
+  list-style:none;
+  line-height:20px;
 }
-.answer
-{
-margin-left:50px;
-margin-bottom: 30px;
-}
+
 .question
 {
-font-weight:bold;
-font-size:15px;
-text-transform:uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
+
+.answer
+{
+  margin-left: 150px;
+  margin-bottom: 30px;
 }
