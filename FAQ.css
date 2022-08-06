@@ -18,6 +18,7 @@ body
   color:white;
   height:500px;
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Pheonix\\WhatsApp Image 2022-08-05 at 8.59.20 PM.jpeg");
+  background-position: center;
   background-blend-mode:multiply;
   background-size:cover;
   margin-bottom: 30px;
