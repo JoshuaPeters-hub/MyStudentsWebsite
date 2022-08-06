@@ -24,6 +24,7 @@ padding:0;
 .header
 {
  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Pheonix\\WhatsApp Image 2022-08-05 at 8.59.21 PM (1).jpeg");
+ background-position: center;
  background-size:cover;
  height: 500px;
  text-align:center;
