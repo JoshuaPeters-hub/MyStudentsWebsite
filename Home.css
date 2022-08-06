@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-a:link
+header a:link
 {
   color: green;
   text-decoration: none;
@@ -182,8 +182,14 @@ footer
 {
   margin: 0;
   background-color:lightgreen;
-  color:black;
   line-height: 50px;
+  color: white;
+}
+
+footer a:link
+{
+  color: white;
+  text-decoration: none;
 }
 
 footer ul
